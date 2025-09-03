@@ -1,0 +1,10 @@
+services:
+  dev:
+    restart: always
+    build:
+      context: ./docker
+      dockerfile: dockerfile
+    volumes:
+      - ${HOME}/.p10k.zsh:/root/.p10k.zsh
+      - ${HOME}/.zsh_history:/root/.zsh_history
+      - ./:/csharp
