@@ -7,4 +7,6 @@ services:
     volumes:
       - ${HOME}/.p10k.zsh:/root/.p10k.zsh
       - ${HOME}/.zsh_history:/root/.zsh_history
+      - ./docker/scripts/.zshrc:/root/.zshrc
+      - ./docker/scripts/start.sh:/root/start.sh
       - ./:/csharp

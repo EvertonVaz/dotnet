@@ -18,7 +18,7 @@ namespace ApiCatalogo.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder mb)
         {
-            mb.Sql("delete from Categorias");
+            mb.Sql("delete from Produtos");
         }
     }
 }

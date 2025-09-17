@@ -36,3 +36,6 @@ bindkey "^[[1;5C" forward-word
 
 export EDITOR=nano
 export VISUAL=nano
+
+
+export PATH="$PATH:/root/.dotnet/tools"
